@@ -1,18 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     color: #ffffff;
 }
-header>h1{
+
+header>h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     color: #202329;
-    background-color:#ffffff ;
+    background-color: #ffffff;
     height: 40vh;
     font-size: 70pt;
 }
@@ -24,22 +24,25 @@ header>h1{
     background-color: #202329;
     margin: 10px 0px;
 }
+
 #container>div {
     border-radius: 15px;
     margin: 20px 50px;
     padding: 10px;
     cursor: pointer;
     text-align: center;
-    background-color:#3c3e44 ;
+    background-color: #3c3e44;
 }
+
 #modalWindow>div {
     border-radius: 15px;
     margin: 20px 50px;
     text-align: center;
-    background-color:#202329;
+    background-color: #202329;
     border: 2px solid white;
     padding: 20px 0px;
 }
+
 #modalWindow {
     position: fixed;
     width: 50%;
@@ -47,11 +50,13 @@ header>h1{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-#modalWindow>p{
+
+#modalWindow>p {
     border: 1px solid gray;
     border-radius: 10px;
     margin: 10px;
 }
+
 #buttonExit {
     width: 20%;
     background-color: #202329;
@@ -59,6 +64,7 @@ header>h1{
     border-radius: 15px;
     cursor: pointer;
 }
-#buttonExit:hover{
+
+#buttonExit:hover {
     background-color: #3c3e44;
 }
